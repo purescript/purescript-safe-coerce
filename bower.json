@@ -15,6 +15,9 @@
     "bower.json",
     "package.json"
   ],
+  "dependencies": {
+    "purescript-unsafe-coerce": "^4.0.0"
+  },
   "devDependencies": {
     "purescript-console": "^4.0.0"
   }
