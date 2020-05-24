@@ -1,6 +1,6 @@
-
 module Safe.Coerce
-  ( coerce
+  ( module Prim.Coerce
+  , coerce
   ) where
 
 import Prim.Coerce (class Coercible)
