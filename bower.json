@@ -19,6 +19,7 @@
     "purescript-unsafe-coerce": "master"
   },
   "devDependencies": {
-    "purescript-console": "master"
+    "purescript-console": "master",
+    "purescript-assert": "master"
   }
 }
