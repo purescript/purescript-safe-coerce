@@ -16,8 +16,8 @@ import Unsafe.Coerce (unsafeCoerce)
 -- | One application for this function is to avoid doing work that you know is a
 -- | no-op because of newtypes. For example, if you have an `Array (Conj a)` and you
 -- | want an `Array (Disj a)`, you could do `Data.Array.map (un Conj >>> Disj)`, but
--- | this performs an unnecessary traversal. `coerce` accomplishes the same
--- | with O(1) cost.
+-- | this performs an unnecessary traversal of the array, with O(n) cost.
+-- | `coerce` accomplishes the same with only O(1) cost:
 -- |
 -- | ```purescript
 -- | mapConjToDisj :: forall a. Array (Conj a) -> Array (Disj a)
