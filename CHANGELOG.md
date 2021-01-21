@@ -5,18 +5,23 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
+- Added support for PureScript 0.14 and dropped support for all previous versions (#5)
 
 New features:
+- Re-exported `Prim.Coerce.Coercible` (#2)
 
 Bugfixes:
 
 Other improvements:
+- Ported `unsafe-coerce` documentation to `coerce` (#5)
+- Expanded documentation for `coerce` (#6)
+- Migrated CI to GitHub Actions and updated installation instructions to use Spago (#7)
+- Added a changelog and pull request template (#9, #10)
 
 ## [v0.0.2](https://github.com/purescript/purescript-safe-coerce/releases/tag/v0.0.2) - 2019-08-17
 
-Update .gitignore
+- Updated .gitignore
 
 ## [v0.0.1](https://github.com/purescript/purescript-safe-coerce/releases/tag/v0.0.1) - 2019-08-17
 
-Initial pre-release version
-
+- Initial pre-release version
