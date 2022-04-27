@@ -16,10 +16,10 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-unsafe-coerce": "master"
+    "purescript-unsafe-coerce": "^6.0.0"
   },
   "devDependencies": {
-    "purescript-assert": "master",
-    "purescript-console": "master"
+    "purescript-assert": "^6.0.0",
+    "purescript-console": "^6.0.0"
   }
 }
