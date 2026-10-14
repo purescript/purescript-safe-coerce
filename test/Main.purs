@@ -1,9 +1,10 @@
 module Test.Main where
 
 import Prelude
+
 import Effect (Effect)
-import Test.Assert (assert)
 import Safe.Coerce (coerce)
+import Test.Assert (assert)
 
 newtype X = X String
 
