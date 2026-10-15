@@ -12,7 +12,7 @@ Bugfixes:
 
 Other improvements:
 
-- Migrate from Bower/Pulp to Spago and modernize CI and formatting tools.
+- Migrate from Bower/Pulp to Spago and modernize CI and formatting tools (#15 by @thomashoneyman)
 
 ## [v2.0.0](https://github.com/purescript/purescript-safe-coerce/releases/tag/v2.0.0) - 2022-04-27
 
