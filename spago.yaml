@@ -1,5 +1,6 @@
 package:
   name: safe-coerce
+  description: Safe zero-cost coercions using the compiler's Coercible class
   build:
     strict: true
     pedanticPackages: true
