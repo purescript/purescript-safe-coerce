@@ -2,7 +2,7 @@
 
 Notable changes to this project are documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [Unreleased](https://github.com/purescript/purescript-safe-coerce/compare/v2.0.1...HEAD)
 
 Breaking changes:
 
@@ -12,9 +12,22 @@ Bugfixes:
 
 Other improvements:
 
+## [v2.0.1](https://github.com/purescript/purescript-safe-coerce/releases/tag/v2.0.1) - 2026-10-17
+
+Breaking changes:
+
+New features:
+
+Bugfixes:
+
+Other improvements:
+
+- Migrate from Bower/Pulp to Spago and modernize CI and formatting tools (#15 by @thomashoneyman)
+
 ## [v2.0.0](https://github.com/purescript/purescript-safe-coerce/releases/tag/v2.0.0) - 2022-04-27
 
 Breaking changes:
+
 - Update project and deps to PureScript v0.15.0 (#12 by @JordanMartinez)
 
 New features:
@@ -26,14 +39,17 @@ Other improvements:
 ## [v1.0.0](https://github.com/purescript/purescript-safe-coerce/releases/tag/v1.0.0) - 2021-02-26
 
 Breaking changes:
+
 - Added support for PureScript 0.14 and dropped support for all previous versions (#5)
 
 New features:
+
 - Re-exported `Prim.Coerce.Coercible` (#2)
 
 Bugfixes:
 
 Other improvements:
+
 - Ported `unsafe-coerce` documentation to `coerce` (#5)
 - Expanded documentation for `coerce` (#6)
 - Migrated CI to GitHub Actions and updated installation instructions to use Spago (#7)
